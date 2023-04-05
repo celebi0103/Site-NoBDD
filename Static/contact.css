@@ -127,8 +127,6 @@ body{
     text-decoration: none;
   }
   
-  element.style {
-  }
   .close:not(:disabled):not(.disabled) {
     cursor: pointer;
   }
@@ -272,82 +270,6 @@ body{
     }
   }
   
-  
-  /* LE FOOTER */
-  
-  /* .footer-basic {
-    position:absolute;
-    bottom:0;
-    width: 100%;
-    height: 100px;
-    margin-top:20px;
-    color:#fff;
-    background-color:black;
-    }
-    
-    .footer-basic ul {
-    padding:0;
-    margin-top: 5px;
-    list-style:none;
-    text-align:center;
-    font-size:15px;
-    line-height:1.6;
-    margin-bottom:0;
-    }
-    
-    .footer-basic li {
-    padding:0 10px;
-    }
-    
-    .footer-basic ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
-    }
-    
-    .footer-basic ul a:hover {
-    opacity:1;
-    }
-    
-    .iconn{
-    
-    margin-left: 10px;
-    display: flex;
-    justify-content:center;
-    }
-    #instagram{
-    background-color: #fff;
-    border-radius: 50px;
-    margin-top:15px;
-    height:25px;
-    width:25px;
-    }
-    #tiktok{
-    background-color: #fff;
-    border-radius: 50px;
-    margin-top:15px;
-    height:25px;
-    width:25px;
-    margin-left: 10px;
-    }
-    #facebook{
-    background-color: #fff;
-    border-radius: 50px;
-    margin-top:15px;
-    margin-left: 10px;
-    height:25px;
-    width:25px;
-    }
-    
-    .footer-basic .copyright {
-    margin-top:10px;
-    text-align:center;
-    font-size:13px;
-    color:#aaa;
-    margin-bottom:0;
-    } */
-    
-  /*  */
   *, *:before, *:after {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -376,6 +298,7 @@ body{
     position: relative;
     background: #ecdfd1;
     border-radius: 15px;
+    width: 95vh;
   }
   
   .screen:after {
@@ -513,7 +436,6 @@ body{
     border-bottom: 1px solid #363531;
     color: #363531;
     font-size: 14px;
-    text-transform: uppercase;
     outline: none;
     transition: border-color .2s;
   }

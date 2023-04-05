@@ -45,22 +45,39 @@
               </div>
               <div class="screen-body-item">
                 <div class="app-form">
-                  <div class="app-form-group">
-                    <!-- L'ENVOIE DU MAIL -->
-                    <form method="post" action="mail.php"> 
-                    <input class="app-form-control" placeholder="Nom Prénom" value="">
-                  </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="EMAIL">
-                  </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="Telephone">
-                  </div>
-                  <div class="app-form-group message">
-                    <input class="app-form-control" placeholder="MESSAGE">
-                  </div>
-                    <button class="app-form-button"> SEND </button>
-                </form>
+                  <!-- <div class="app-form-group"> -->
+                    <!-- <div class="text1">
+                      <p>Bienvenue sur notre page de contact!<br>
+                        Si vous avez des questions,<br>
+                        n'hésitez pas à nous contacter.</p>
+                    </div>
+                    <div class="text1">
+                      <p>Si vous souhaitez nous envoyer un message,
+                        veuillez remplir le mail en y indiquant <br>
+                        votre nom,votre numéro de téléphone<br>
+                        et votre adresse e-mail à contacter en cas de réponse, <br>
+                        ainsi que le message que vous souhaitez nous transmettre.</p>
+                    </div>
+                    <div class="text1">
+                      <p> Nous vous répondrons dès que possible. Merci de votre intérêt pour notre site web!</p>
+                    </div>
+                    <a href="mailto:prodbybiggerthanme@gmail.com"> <button class="app-form-button" type="submit">SEND</button></a> -->
+
+                  <form action="mail.php" method="post"> 
+                    <div class="app-form-group">
+                      <input class="app-form-control" id="nom" name="nom" placeholder="Nom">
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" id="email" name="email" placeholder="EMAIL">
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" id="tel" name="tel" placeholder="Telephone">
+                    </div>
+                    <div class="app-form-group message">
+                      <input class="app-form-control" id="message" name="message" placeholder="MESSAGE">
+                    </div>
+                    <button class="app-form-button" type="submit">SEND</button>
+                  </form>
                   </div>
                 </div>
               </div>
