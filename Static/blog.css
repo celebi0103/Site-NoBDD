@@ -69,15 +69,7 @@ body {
 .col-4 {
   flex: 0 0 calc(10% - 20px);
   max-width: calc(10% - 20px);
-  /* margin: 0 10px; */
-}
-
-.square {
-  background-color: #f2f2f2;
-  padding: 20px;
-  text-align: center;
-  /* margin-bottom: 20px; */
-  margin : 20px;
+margin: auto;
 }
 
 h2 {
@@ -107,13 +99,78 @@ h1 {
 h3 {
   font-family: 'Space Grotesk', sans-serif;
 }
+/* 
 
-#cinq {
-  width: 100%;
+.image-container {
+  margin-top:3vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image {
+  background-color: white;
+  border: 4px solid black;
+  width: 40vh;
   height: auto;
-  max-height: 30vh;
+  margin: 10px;
+  
+} */
+
+.image-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-container a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+.image-container a .titrearticle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.image-container a:hover .titrearticle {
+  opacity: 1;
+}
+.image-container .image {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+.image-container a:hover .image {
+  transform: scale(1.1);
 }
 
+@media only screen and (min-width: 768px) {
+  .image-container a {
+      margin-right: 20px;
+      margin-bottom: 0;
+  }
+  .image-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .scroll-down-arrow {

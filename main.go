@@ -73,16 +73,16 @@ func Handlefunc() {
 		}
 	})
 
-	// http.HandleFunc("/website/bienvenu.php", func(w http.ResponseWriter, r *http.Request) {
-	// 	template := template.Must(template.ParseFiles("templates/header.html", "templates/footer.html"))
-	// 	if r.Method != http.MethodPost {
-	// 		template.Execute(w, "")
-	// 		return
-	// 	}
-	// })
-
 	http.HandleFunc("/services", func(w http.ResponseWriter, r *http.Request) {
 		template := template.Must(template.ParseFiles("./Page/nos_services.html", "templates/header.html", "templates/footer.html"))
+		if r.Method != http.MethodPost {
+			template.Execute(w, "")
+			return
+		}
+	})
+
+	http.HandleFunc("/articlesdanse", func(w http.ResponseWriter, r *http.Request) {
+		template := template.Must(template.ParseFiles("./Page/articleDanse.html", "templates/header.html", "templates/footer.html"))
 		if r.Method != http.MethodPost {
 			template.Execute(w, "")
 			return
