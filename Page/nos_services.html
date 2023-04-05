@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="icon" type="image/png" sizes="16x16" href="../Static/images/BTM.png">
+    <link rel="stylesheet" href="/Static/nos_services.css" type="text/css">
+    <link rel="stylesheet" href="../Static/header2.css" type="text/css">
+    <link rel="stylesheet" href="../Static/footer2.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
+
+{{template "header"}}
+
+<body>
+
+    <div class="Titreservices">
+        <div class="banniere">
+            <img src="/Static/images/banniereService.jpg">
+            <div class="scroll-down-arrow"></div>
+          </div>
+          <script>document.querySelector(".scroll-down-arrow").addEventListener("click", () => {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+          });</script>
+        <h1 class="Titre">Les Services proposer par Bigger Than Me </h1>
+    </div>
+
+
+    <div class="Paragraphe1">
+       
+            <h2> Bigger Than Me vous propose des replay des club amateurs !</h2>
+            <h3><span class="youtube-logo-left"></span><span class="youtube-title">Visualiser un extrait sur notre page Youtube</span><span class="youtube-logo-right"></span></h3>
+       
+    </div>
+
+
+    <div class="Video">
+        <ul>
+            <iframe class="video" width="727" height="409" src="https://www.youtube.com/embed/hcabTB6AXaU"
+                title="VILLEFRANCHE H.B  VS C.L. MARSANNAY" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </ul>
+    </div>
+
+    <div class="Paragraphe2">
+        <h1>Les différents pôles de BTM</h1>
+    </div>
+
+    <div class="descPole">
+        <p>Bigger Than Me est une équipe qui vous accompagne dans votre quête de connaissances, de divertissement et de découverte. Grâce à nos différents pôles, notamment replay, documentaire et podcast, nous vous offrons une expérience immersive et captivante. Notre objectif est de vous garantir un résultat satisfaisant en vous proposant des contenus de qualité, divertissants et enrichissants. Quel que soit votre domaine d'intérêt, nous sommes là pour vous offrir une expérience unique et inoubliable. Avec Bigger Than Me, laissez-vous guider dans un monde de découvertes passionnantes et d'aventures inoubliables.</p>
+    </div>
+
+    <div class="galerie">
+        
+        <div class="squar"><img src="/Static/images/BTMDocumentaire.png"> </div>
+        <div class="squar"><img src="/Static/images/BTMPodcast.png"> </div>
+        <div class="squar"><img src="/Static/images/BTMReplay.png"> </div>
+        
+
+    </div>
+
+    <div class="Documentaire">
+        <h1>Documentaire</h1>
+            <h3>Le pôle Documentaire a pour mission de produire et de diffuser des contenus vidéo de qualité sur des sujets variés, tels que l'actualité, la culture, la nature, la science, etc. Ce pôle est responsable de la création, de la production et de la mise en ligne de ces contenus.</h3>
+    </div>
+
+    <div class="Replay">
+        <h1>Replay</h1>
+            <h3> Le pôle Replay a pour mission de permettre aux utilisateurs de revoir les matchs passés et de les visionner à tout moment. Ce pôle a pour objectif de faciliter l'accès aux matchs passés pour un public plus large et de permettre aux utilisateurs de revivre les moments forts des matchs.</h3>
+    </div>
+
+    <div class="Podcast">
+        <h1>Podcast</h1>
+            <h3>Le pôle Podcast a pour mission de créer des émissions audio sur des sujets variés pour informer, divertir et fidéliser les utilisateurs de la plateforme. Ce pôle est responsable de la production, de la diffusion et de la promotion des émissions audio, en veillant à répondre aux attentes et aux intérêts des auditeurs.</h3>
+    </div>
+</body>
+
+{{template "footer"}}
+
+</html>

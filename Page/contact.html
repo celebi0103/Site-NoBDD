@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="icon" type="image/png" sizes="16x16" href="../Static/images/BTM.png">
+	<link rel="stylesheet" href="../Static/contact.css" type="text/css">
+    <link rel="stylesheet" href="../Static/header2.css" type="text/css">
+    <link rel="stylesheet" href="../Static/footer2.css" type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
+{{template "header"}}
+
+<body>
+   
+    <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>CONTACTEZ - NOUS</span>
+                </div>
+                <div class="icons">
+                    <a href="/"></a><img id="fb" src="/Static/images/facebookORG.png">
+                    <a href="/"></a><img id="in" src="/Static/images/instagramORG.png">
+                    <a href="/"></a><img id="in" src="/Static/images/tiktokORG.png">
+                    <a href="/"></a><img id="in" src="/Static/images/youtubeORG.png">
+                </div>
+                <div class="contacts">Mail: prodbybiggerthanme@gmail.com</div>
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <!-- L'ENVOIE DU MAIL -->
+                    <form method="post" action="mail.php"> 
+                    <input class="app-form-control" placeholder="Nom Prénom" value="">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="EMAIL">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="Telephone">
+                  </div>
+                  <div class="app-form-group message">
+                    <input class="app-form-control" placeholder="MESSAGE">
+                  </div>
+                    <button class="app-form-button"> SEND </button>
+                </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+</body>
+{{template "footer"}}
+
+
+</html>

@@ -1,0 +1,219 @@
+body {
+  margin: auto;
+  background-image: url('/Static/images/Motif.png');
+}
+
+.intro {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Caviar Dreams', sans-serif;
+}
+
+.Equipe {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#logo {
+  margin-left: 6vh;
+  height: 20vh;
+  width: 30vh;
+}
+
+#btm,
+#service,
+#blog,
+#contact {
+  color: #1e1e1c;
+  text-decoration: underline 2px #f59d08;
+}
+
+#btm:hover,
+#service:hover,
+#blog:hover,
+#contact:hover {
+  color: #f59d08;
+  text-decoration: underline 2px #1e1e1c;
+  font-weight: bold;
+}
+
+.menu {
+  margin: auto;
+  background-color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.menu a {
+  font-family: Minion Pro Regular;
+  text-align: center;
+  text-decoration: underline 2px #1e1e1c;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  font-weight: lighter;
+  text-decoration: underline 3px #f59d08;
+  color: #1e1e1c;
+}
+
+.image1 {
+  text-align: center;
+}
+
+#group {
+  width: 100%;
+  height: 120vh;
+}
+
+.equipe1,
+.equipe2,
+.equipe3,
+.equipe4,
+.equipe5 {
+  margin-top: 80px;
+  background-color: #fff;
+  height: 40vh;
+}
+
+.text1,
+.text2,
+.text,
+.text4,
+.text5 {
+  margin: auto;
+  width: 100%;
+}
+
+.hehe,
+.hihi,
+.hoho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo1 {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 32vh;
+  width: 32vh;
+}
+
+#logo2 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35vh;
+  width: 35vh;
+}
+
+p {
+  margin: 0;
+  margin-top: 10px;
+  font-family: 'Caviar Dreams', sans-serif;
+}
+
+p1 {
+  margin: 0;
+  margin-top: 30px;
+  font-family: 'Caviar Dreams', sans-serif;
+}
+
+.footer-basic {
+  height: 100px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: black;
+}
+
+.footer-basic ul {
+  padding: 0;
+  margin-top: 5px;
+  list-style: none;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+  background-image:none;
+  }
+  
+  #logo {
+  margin-left:0;
+  height:15vh;
+  width:25vh;
+  }
+  
+  #logo1 {
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vh;
+  width: 20vh;
+  }
+  
+  #logo2 {
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25vh;
+  width: 25vh;
+  }
+  
+  .menu {
+  height:auto;
+  display:block;
+  }
+  
+  .menu1 {
+  margin-top: 0;
+  }
+  
+  .menu a {
+  width: 100%;
+  padding: 10px;
+  display:block;
+  text-align:center;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .image1 img {
+  width: 100%;
+  }
+  
+  .equipe1, .equipe2, .equipe3, .equipe4, .equipe5 {
+  margin-top: 40px;
+  height: auto;
+  }
+  
+  .text1, .text2, .text, .text4, .text5 {
+  margin:auto;
+  width: 80%;
+  }
+  
+  .footer-basic {
+  height: auto;
+  padding: 10px 0;
+  }
+  
+  .footer-basic ul {
+  margin-top: 0;
+  }
+  }

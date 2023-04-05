@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+body {
+
+    margin: auto;
+    background-image: url('/Static/images/Motif.png');
+}
+
+.banniere {
+  position: relative;
+  height: 80%;
+}
+
+.banniere img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.scroll-down-arrow {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.scroll-down-arrow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+
+.Titre {
+    font-family: "montserrat";
+    color: #1f1f1f;
+    text-decoration: underline 3px #f59d08;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+    background-color: white;
+}
+  .Video{
+    width: auto;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  #paragraphe1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .Paragraphe2 {
+    text-decoration: underline 3px #f59d08;
+    padding: 2px;
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+    background-color: white;
+  }
+  .descPole{
+    padding: 2px;
+    background-color: white;
+    margin:auto;
+    width:80%;
+    text-align:center ;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+.square1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background-size: 100%;
+    width: 0;
+    height: 0;
+    border: 100px solid;
+    margin-top: 10em;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.Paragraphe3 {
+    font-family: "montserrat";
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.galerie {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    max-width: 100%;
+    margin: 70px auto 0;
+
+}
+
+.squar {
+    width: auto;
+    height: auto;
+    /* margin: 10px; */
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.Documentaire h1{
+    
+    text-decoration: underline #6603ff 4px;
+    color: #1f1f1f;
+    font-family: italic, 'Montserrat';
+    text-align: center;
+
+}
+
+.Replay h1{
+    color: #1f1f1f;
+    margin: auto;
+    text-align: center;
+    font-family: italic,'Montserrat';  
+    text-decoration:underline #00c9d8 4px;
+}
+
+.Podcast h1{
+    color: #1f1f1f;
+    text-align: center;
+    font-family: italic,'Montserrat';
+    text-decoration: underline #ffe335 4px;  
+}
+
+.Documentaire h3{
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.Podcast h3{
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.Replay h3{
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+
+.squar img {
+    width: 60vh;
+    height: auto;
+}
+
+@media screen and (max-width: 1400px),
+(max-width: 1000px) {
+    .squar {
+        width: 220px;
+        height: 220px;
+        margin: 10px;
+        flex-shrink: 0;
+        overflow: hidden;
+
+
+    }
+
+    .squar img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .galerie {
+
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        max-width: 1000px;
+        margin: auto auto 0;
+
+
+    }
+
+}
+
+.youtube-logo-left {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('/Static/images/youtube.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  
+  .youtube-logo-right {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('/Static/images/youtube.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  
+  .youtube-title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px; /* ajouter une marge entre les logos et le texte */
+    vertical-align: middle;
+  }
+
+@media screen and (max-width: 844px) {
+    .video {
+        border-radius: 1cm;
+        height: 450px;
+        width: 450px;
+    }
+
+    .squar {
+        width: 220px;
+        height: 220px;
+        margin: 10px;
+        flex-shrink: 0;
+        overflow: hidden;
+
+
+    }
+
+    .squar img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .galerie {
+
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        max-width: 1000px;
+        margin: auto auto 0;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+.banniere{
+    width:100%;
+}
+.Titre{
+    text-align:center;
+    width:100%;
+    font-size: 20px;
+}
+.Paragraphe1{
+    text-align:center;
+    width:100%;
+    font-size: 15px;
+}
+h3{
+    text-align:center;
+    width:100%;
+    font-size: 15px;
+}
+h2{
+    /* text-align:center; */
+    width:100%;
+    font-size: 18px;
+}
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .squar {
+        width: 220px;
+        height: 220px;
+        margin: 10px;
+        flex-shrink: 0;
+        overflow: hidden;
+
+
+    }
+
+    .squar img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .galerie {
+
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        max-width: 1000px;
+        margin: auto auto 0;
+
+
+    }
+
+    #arrow {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+
+        margin: 0 auto;
+
+
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0;
+        margin-top: 40px;
+
+        height: 0;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
+        border-top: 50px solid orange;
+    }
+
+    .body {
+        align-content: center;
+    }
+
+    .video {
+        height: 250px;
+        width: 250px;
+    }
+
+    .button1 {
+        margin-block-start: -100px;
+    }
+
+}
+
