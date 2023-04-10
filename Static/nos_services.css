@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 body {
 
     margin: auto;
@@ -53,319 +55,124 @@ h3{
 .Titre {
     font-family: "montserrat";
     color: #1f1f1f;
-    text-decoration: underline 3px #f59d08;
-    display: flex;
     justify-content: center;
-    padding: 2px;
-    margin: auto;
+    margin-top: 5vh;
     max-width: 50%;
     text-align: center;
     background-color: white;
 }
-  .Video{
-    width: auto;
-    height: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-  }
-  #paragraphe1 {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .Paragraphe2 {
-    text-decoration: underline 3px #f59d08;
-    padding: 2px;
-    margin: auto;
-    max-width: 50%;
-    text-align: center;
-    background-color: white;
-  }
-  .descPole{
-    padding: 2px;
-    background-color: white;
+
+h1{
     margin:auto;
-    width:80%;
-    text-align:center ;
-    font-family: 'Space Grotesk', sans-serif;
-  }
-
-.square1 {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color: rgb(0, 0, 0);
-    background-size: 100%;
-    width: 0;
-    height: 0;
-    border: 100px solid;
-    margin-top: 10em;
-    margin-right: 20px;
-    justify-content: center;
-}
-
-.Paragraphe3 {
-    font-family: "montserrat";
-    color: rgb(0, 0, 0);
-    width: 80%;
-    margin: auto;
     text-align: center;
 }
 
-.galerie {
-    display: flex;
-    justify-content: center;
-    width: 80px;
-    max-width: 100%;
-    margin: 70px auto 0;
-
+.Paragraphe1{
+ margin: auto;
+margin-top: 8vh;
+text-align:center;
+background-color:white;
+font-family: "Montserrat", sans-serif;   
+width: 80%;
 }
 
-.squar {
-    width: auto;
-    height: auto;
-    /* margin: 10px; */
-    flex-shrink: 0;
-    overflow: hidden;
-    background-color: #fff;
-
-}
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
-.Documentaire h1{
-    
-    text-decoration: underline #6603ff 4px;
-    color: #1f1f1f;
-    font-family: italic, 'Montserrat';
-    text-align: center;
-
+.Paragraphe2{
+  margin: auto;
+  margin-top: 20vh;
+  text-align:center;
+  font-family: "Montserrat", sans-serif;   
+  width: 80%;
+  font-size: large;
+  font-weight:900;
 }
 
-.Replay h1{
-    color: #1f1f1f;
-    margin: auto;
-    text-align: center;
-    font-family: italic,'Montserrat';  
-    text-decoration:underline #00c9d8 4px;
-}
-
-.Podcast h1{
-    color: #1f1f1f;
-    text-align: center;
-    font-family: italic,'Montserrat';
-    text-decoration: underline #ffe335 4px;  
-}
-
-.Documentaire h3{
-    background-color: #fff;
-    border-radius: 40px;
-    text-align: center;
-}
-
-.Podcast h3{
-    background-color: #fff;
-    border-radius: 40px;
-    text-align: center;
-}
-
-.Replay h3{
-    background-color: #fff;
-    border-radius: 40px;
-    text-align: center;
+.Paragraphe2des{
+  margin: auto;
+  margin-top: 5vh;
+  text-align:center;
+  background-color:white;
+  font-family: "Montserrat", sans-serif;   
+  width: 80%;
 }
 
 
+.photodoc {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px; 
+}
 
 .squar img {
-    width: 60vh;
-    height: auto;
+  margin-top:5vh;
+  width: 70%;
+  height: auto;
+  display: block;
+}
+.squar2 img {
+  margin-top:5vh;
+  width: 90%;
+  height: auto;
+  display: block;
+}
+.squar3 img {
+  margin-top:5vh;
+  width: 90%;
+  height: auto;
+  display: block;
 }
 
-@media screen and (max-width: 1400px),
-(max-width: 1000px) {
-    .squar {
-        width: 220px;
-        height: 220px;
-        margin: 10px;
-        flex-shrink: 0;
-        overflow: hidden;
-
-
-    }
-
-    .squar img {
-        width: 100%;
-        height: auto;
-
-    }
-
-    .galerie {
-
-        display: flex;
-        justify-content: center;
-        width: 80px;
-        max-width: 1000px;
-        margin: auto auto 0;
-
-
-    }
-
-}
-
-.youtube-logo-left {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-image: url('/Static/images/youtube.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    vertical-align: middle;
+/* Taille d'écran mobile */
+@media (max-width: 576px) {
+  .Titre {
+    max-width: 100%;
   }
-  
-  .youtube-logo-right {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-image: url('/Static/images/youtube.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    vertical-align: middle;
+  .Paragraphe1, .Paragraphe2, .Paragraphe2des {
+    width: 100%;
+    margin-top: 10vh;
   }
-  
-  .youtube-title {
-    display: inline-block;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0 10px; /* ajouter une marge entre les logos et le texte */
-    vertical-align: middle;
+  .squar img, .squar2 img, .squar3 img {
+    width: 100%;
   }
-
-@media screen and (max-width: 844px) {
-    .video {
-        border-radius: 1cm;
-        height: 450px;
-        width: 450px;
-    }
-
-    .squar {
-        width: 220px;
-        height: 220px;
-        margin: 10px;
-        flex-shrink: 0;
-        overflow: hidden;
-
-
-    }
-
-    .squar img {
-        width: 100%;
-        height: auto;
-
-    }
-
-    .galerie {
-
-        display: flex;
-        justify-content: center;
-        width: 80px;
-        max-width: 1000px;
-        margin: auto auto 0;
-        flex-direction: column;
-        align-items: center;
-
-
-    }
-.banniere{
-    width:100%;
-}
-.Titre{
-    text-align:center;
-    width:100%;
-    font-size: 20px;
-}
-.Paragraphe1{
-    text-align:center;
-    width:100%;
-    font-size: 15px;
-}
-h3{
-    text-align:center;
-    width:100%;
-    font-size: 15px;
-}
-h2{
-    /* text-align:center; */
-    width:100%;
-    font-size: 18px;
 }
 
-
+/* Taille d'écran tablette */
+@media (min-width: 576px) and (max-width: 768px) {
+  .Titre {
+    max-width: 80%;
+  }
+  .Paragraphe1, .Paragraphe2, .Paragraphe2des {
+    width: 80%;
+    margin-top: 15vh;
+  }
+  .squar img, .squar2 img, .squar3 img {
+    width: 80%;
+  }
 }
 
-@media screen and (max-width: 600px) {
-
-    .squar {
-        width: 220px;
-        height: 220px;
-        margin: 10px;
-        flex-shrink: 0;
-        overflow: hidden;
-
-
-    }
-
-    .squar img {
-        width: 100%;
-        height: auto;
-
-    }
-
-    .galerie {
-
-        display: flex;
-        justify-content: center;
-        width: 80px;
-        max-width: 1000px;
-        margin: auto auto 0;
-
-
-    }
-
-    #arrow {
-        display: flex;
-        align-self: center;
-        justify-self: center;
-
-        margin: 0 auto;
-
-
-        top: 100%;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 0;
-        margin-top: 40px;
-
-        height: 0;
-        border-left: 125px solid transparent;
-        border-right: 125px solid transparent;
-        border-top: 50px solid orange;
-    }
-
-    .body {
-        align-content: center;
-    }
-
-    .video {
-        height: 250px;
-        width: 250px;
-    }
-
-    .button1 {
-        margin-block-start: -100px;
-    }
-
+/* Taille d'écran ordinateur de bureau */
+@media (min-width: 768px) and (max-width: 992px) {
+  .Titre {
+    max-width: 60%;
+  }
+  .Paragraphe1, .Paragraphe2, .Paragraphe2des {
+    width: 60%;
+    margin-top: 20vh;
+  }
+  .squar img, .squar2 img, .squar3 img {
+    width: 60%;
+  }
 }
 
+/* Taille d'écran large */
+/* @media (min-width: 992px) {
+  .Titre {
+    max-width: 50%;
+  }
+  .Paragraphe1, .Paragraphe2, .Paragraphe2des {
+    width: 50%;
+    margin-top: 20vh;
+  }
+  .squar img, .squar2 img, .squar3 img {
+    width: 50%;
+  }
+} */
